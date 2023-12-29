@@ -1,0 +1,11 @@
+[package]
+name = "z80prog"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["env", "derive"] }
+probe-rs = "0.21.1"
